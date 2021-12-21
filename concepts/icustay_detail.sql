@@ -5,7 +5,7 @@
 -- ------------------------------------------------------------------
 
 -- (Optional) Define which schema to work on
--- SET search_path TO eicu_crd;
+SET search_path TO eicu_crd;
 
 DROP MATERIALIZED VIEW IF EXISTS icustay_detail CASCADE;
 CREATE MATERIALIZED VIEW icustay_detail as (
